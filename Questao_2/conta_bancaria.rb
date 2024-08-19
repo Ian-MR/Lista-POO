@@ -1,4 +1,5 @@
 class ContaBancaria
+  attr_accessor :saldo
   def initialize
     @saldo = 0
   end
@@ -21,6 +22,4 @@ class ContaBancaria
   def consultar_saldo
     puts "O saldo da sua conta é: #{@saldo}"
   end
-  private
-  attr_accessor :saldo
 end
