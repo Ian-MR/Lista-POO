@@ -1,5 +1,4 @@
 class ContaBancaria
-  attr_accessor :saldo
   def initialize
     @saldo = 0
   end
